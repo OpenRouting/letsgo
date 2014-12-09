@@ -2,20 +2,21 @@
 
 /**
  * @ngdoc overview
- * @name letsgoApp
+ * @name Lets Go
  * @description
- * # letsgoApp
+ * # letsgo
  *
  * Main module of the application.
  */
 angular
-  .module('letsgoApp', [
+  .module('letsgo', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'letsgo.about'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -31,3 +32,4 @@ angular
         redirectTo: '/'
       });
   });
+

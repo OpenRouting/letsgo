@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name letsgoApp.api.factory
+ * @name letsgo.api
  * @description
  *
  * This houses all of the calls to the navigator API
  */
-angular.module('letsgoApp.api.factory', ['letsgoApp.configuration.factory'])
+angular.module('letsgo.api', ['letsgo.configuration'])
 
   .factory('api', [
     '$http',

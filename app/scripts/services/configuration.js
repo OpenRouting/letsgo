@@ -7,7 +7,8 @@
  * # configuration
  * Factory in the letsgoApp.
  */
-angular.module('letsgoApp.configuration.factory', [])
+angular.module('letsgo.configuration', [])
+
   .factory('configuration', function () {
     // Service logic
     // ...

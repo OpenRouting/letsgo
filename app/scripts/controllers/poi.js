@@ -2,17 +2,16 @@
 
 /**
  * @ngdoc function
- * @name letsgoApp.controller:MainCtrl
+ * @name letsgoApp.controller:PoiCtrl
  * @description
- * # MainCtrl
+ * # PoiCtrl
  * Controller of the letsgoApp
  */
-angular.module('letsgo')
-  .controller('MainCtrl', function ($scope) {
+angular.module('letsgoApp')
+  .controller('PoiCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
-
   });
