@@ -7,12 +7,13 @@
  *
  * This houses all of the calls to the navigator API
  */
-angular.module('letsgoApp.api.factory')
+angular.module('letsgoApp.api.factory', ['letsgoApp.configuration.factory'])
+
   .factory('api', [
     '$http',
+    'configuration',
 
-    function($http) {
-      'use strict';
+    function($http,config) {
 
     // Public API here
     return {
@@ -21,7 +22,7 @@ angular.module('letsgoApp.api.factory')
        * @returns {HttpPromise}
        */
       tables: function () {
-        var url = config.apiRoot + "/geo";
+        var url = config.apiRoot + '/geo';
         return $http.get(url);
       },
       /**
@@ -30,7 +31,7 @@ angular.module('letsgoApp.api.factory')
        * @returns {HttpPromise}
        */
       table: function (table) {
-        var url = config.apiRoot + "/geo/" + table;
+        var url = config.apiRoot + '/geo/' + table;
         return $http.get(url);
       },
       /**
@@ -38,7 +39,7 @@ angular.module('letsgoApp.api.factory')
        * @returns {HttpPromise}
        */
       route: function () {
-        var url = config.apiRoot + "/route";
+        var url = config.apiRoot + '/route';
         return $http.get(url);
       }
     };
