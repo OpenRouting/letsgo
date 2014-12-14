@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name letsgoApp.controller:RouteCtrl
+ * @name letsgo.controller:RouteCtrl
  * @description
  * # RouteCtrl
  * Controller of the letsgoApp
  */
-angular.module('letsgoApp')
+angular.module('letsgo')
   .controller('RouteCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

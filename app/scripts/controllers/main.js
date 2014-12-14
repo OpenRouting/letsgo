@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc function
- * @name letsgoApp.controller:MainCtrl
+ * @name letsgo.controller:MainCtrl
  * @description
  * # MainCtrl
  * Controller of the letsgoApp
