@@ -9,10 +9,5 @@
  */
 angular.module('letsgo')
   .controller('SidePanelCtrl', function ($scope) {
-    $scope.pm = {
-      origin:undefined,
-      destination:undefined
-    };
 
-    $scope.$watch('pm.origin', function(){console.log('asdf')})
   });
