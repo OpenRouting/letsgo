@@ -1,4 +1,15 @@
 <!-- Add your site or application content here -->
 <header><h1 ng-bind="pm.title"></h1></header>
-<div id="content"></div>
+<div id="content">
+  <div
+    id="map"
+    data-ng-controller="MapCtrl"
+    data-ng-include="'views/map.html'"
+    ></div>
+  <div
+    id="sidePanel"
+    data-ng-controller="SidePanelCtrl"
+    data-ng-include="'views/sidepanel.html'"
+    ></div>
+</div>
 <footer><span class="credits">&copy; <a href="mailto:christopher.fricke@bmoregeo.com">BmoreGeo</a> 2014-{{pm.currentYear}}</span></footer>

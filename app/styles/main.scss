@@ -14,6 +14,11 @@ $footerHeight:30px;
 
 $lightBlue:#E0EAEA;
 
+$sidePanelWidth:250px;
+$sidePanelBackground:#333333;
+$sidePanelColor:#FFFFFF;
+
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -57,7 +62,28 @@ header{
   z-index:1;
 
   background: $lightBlue;
+}
 
+#map{
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:$sidePanelWidth;
+  left:0;
+  background:red;
+}
+#map.nosidepanel{
+  right:0;
+}
+#sidePanel{
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  width:$sidePanelWidth;
+  color:$sidePanelColor;
+  background: $sidePanelBackground;
+  border-left:5px solid darken( $sidePanelBackground, 2% );
 }
 
 footer{
