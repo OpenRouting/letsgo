@@ -15,4 +15,11 @@ angular.module('letsgo')
       'Karma'
     ];
 
+    $scope.pm = {
+      title: 'Let\'s Go!',
+      subtitle: '',
+
+      currentYear: new Date().getFullYear()
+    }
+
   });
