@@ -68,9 +68,8 @@ header{
   position:absolute;
   top:0;
   bottom:0;
-  right:$sidePanelWidth;
   left:0;
-  background:red;
+  background:darken($lightBlue, 20%);
 }
 #map.nosidepanel{
   right:0;
@@ -80,7 +79,9 @@ header{
   top:0;
   right:0;
   bottom:0;
-  width:$sidePanelWidth;
+
+  padding:10px;
+
   color:$sidePanelColor;
   background: $sidePanelBackground;
   border-left:5px solid darken( $sidePanelBackground, 2% );
@@ -122,4 +123,8 @@ a{
 }
 a:hover{
   color:#FFFFFF;
+}
+
+.directions{
+  color:red;
 }

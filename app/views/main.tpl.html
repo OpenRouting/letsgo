@@ -2,14 +2,16 @@
 <header><h1 ng-bind="pm.title"></h1></header>
 <div id="content">
   <div
-    id="map"
+    id="mapCtrl"
+    class=".col-md-6"
     data-ng-controller="MapCtrl"
-    data-ng-include="'views/map.html'"
+    data-ng-include="'views/map.tpl.html'"
     ></div>
   <div
     id="sidePanel"
+    class=".col-md-6"
     data-ng-controller="SidePanelCtrl"
-    data-ng-include="'views/sidepanel.html'"
+    data-ng-include="'views/sidepanel.tpl.html'"
     ></div>
 </div>
 <footer><span class="credits">&copy; <a href="mailto:christopher.fricke@bmoregeo.com">BmoreGeo</a> 2014-{{pm.currentYear}}</span></footer>

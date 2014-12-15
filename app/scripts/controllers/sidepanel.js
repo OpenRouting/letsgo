@@ -9,9 +9,10 @@
  */
 angular.module('letsgo')
   .controller('SidePanelCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.pm = {
+      origin:undefined,
+      destination:undefined
+    };
+
+    $scope.$watch('pm.origin', function(){console.log('asdf')})
   });
