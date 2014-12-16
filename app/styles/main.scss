@@ -68,23 +68,31 @@ header{
   position:absolute;
   top:0;
   bottom:0;
-  left:0;
+  width:100%;
   background:darken($lightBlue, 20%);
 }
 #map.nosidepanel{
   right:0;
 }
-#sidePanel{
+#panel{
   position:absolute;
-  top:0;
-  right:0;
-  bottom:0;
-
+  top:10px;
+  right:10px;
   padding:10px;
 
   color:$sidePanelColor;
   background: $sidePanelBackground;
-  border-left:5px solid darken( $sidePanelBackground, 2% );
+  border:5px solid darken( $sidePanelBackground, 2% );
+
+  header{
+    position:inherit;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    margin:0;
+    height:30px;
+    font-size: 24px;
+  }
 }
 
 footer{
@@ -124,7 +132,31 @@ a{
 a:hover{
   color:#FFFFFF;
 }
-
-.directions{
-  color:red;
+#directionInput{
+  margin:10px;
 }
+#directionSubPanel{
+  margin-top:40px;
+  background:lighten($sidePanelBackground, 10%);
+
+  header{
+    height:inherit;
+    position:inherit;
+    padding:5px;
+    text-align:center;
+    font-weight:bold;
+
+    -webkit-box-shadow:inherit;
+    -moz-box-shadow:inherit;
+    -box-shadow:inherit;
+  }
+}
+.directions{
+  margin:0 10px;
+
+
+  .direction{
+    padding: 10px 10px;
+  }
+}
+

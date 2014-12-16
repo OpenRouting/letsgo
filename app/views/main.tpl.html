@@ -1,5 +1,13 @@
 <!-- Add your site or application content here -->
-<header><h1 ng-bind="pm.title"></h1></header>
+<header>
+  <h1 ng-bind="pm.title"></h1>
+  <div
+    id="directionCtrl"
+    class=".col-md-6"
+    data-ng-controller="DirectionCtrl"
+    data-ng-include="'views/search.tpl.html'"
+    ></div>
+</header>
 <div id="content">
   <div
     id="mapCtrl"
@@ -7,11 +15,6 @@
     data-ng-controller="MapCtrl"
     data-ng-include="'views/map.tpl.html'"
     ></div>
-  <div
-    id="sidePanel"
-    class=".col-md-6"
-    data-ng-controller="SidePanelCtrl"
-    data-ng-include="'views/sidepanel.tpl.html'"
-    ></div>
+
 </div>
 <footer><span class="credits">&copy; <a href="mailto:christopher.fricke@bmoregeo.com">BmoreGeo</a> 2014-{{pm.currentYear}}</span></footer>
