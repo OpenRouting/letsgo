@@ -126,3 +126,31 @@ a:hover{
 .btn-noround{
   border-radius:0 !important;
 }
+
+
+.droparea{
+  position:absolute;
+  top:30px;
+  width:146px;
+  padding:5px 10px;
+
+  background:lighten($headerBackground, 20%);
+  border:2px solid $headerBackground;
+  border-width:0 2px 2px 2px;
+
+  ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    width:100%;
+  }
+  li{
+    margin:0;
+    padding:2px 0;
+    width:100%;
+    border-top:1px solid lighten($headerBackground, 50%);
+  }
+  li:first-of-type{
+    border-top-width:0px;
+  }
+}

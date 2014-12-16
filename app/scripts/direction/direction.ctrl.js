@@ -12,10 +12,18 @@ angular.module('letsgo.direction', [
     $scope.pm = {
       origin: {
         text: '',
-        type: 'search'
+        type: 'search',
+        showResults: true,
+        results: [
+          '1','2','3'
+        ]
       },
       destination:{
-        text:''
+        text:'',
+        showResults: true,
+        results: [
+          '1','2','3'
+        ]
       }
     };
 

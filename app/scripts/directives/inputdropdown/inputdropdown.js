@@ -13,7 +13,8 @@ angular.module('searchdropdown', [])
     transclude: true,
     scope: {
       text: '=',
-      hide: '='
+      items: '=',
+      show: '='
     },
     templateUrl: 'scripts/directives/inputdropdown/inputdropdown.tpl.html',
     link: link

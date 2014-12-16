@@ -19,7 +19,8 @@
     </span>
 
       <searchdropdown text="pm.origin.text"
-
+                      items="pm.origin.results"
+                      show="pm.destination.showResults"
                       class="input-group-sm"
                       ng-class="{'ng-hide':pm.origin.type!=='search'}">
         ></searchdropdown>
@@ -27,7 +28,10 @@
 
   <div class="input-group input-group-sm">
     <span class="input-group-addon">Destination</span>
-    <searchdropdown text="pm.destination.text" class="input-group-sm"></searchdropdown>
+    <searchdropdown text="pm.destination.text"
+                    items="pm.destination.results"
+                    show="pm.destination.showResults"
+                    class="input-group-sm"></searchdropdown>
   </div>
 
 </form>
