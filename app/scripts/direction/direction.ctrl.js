@@ -17,5 +17,5 @@ angular.module('letsgo.direction', [])
       originType: 'search' // search, gps
     };
 
-    $scope.setOriginType = function(originType){$scope.pm.originType = originType}
+    $scope.setOriginType = function(originType){if ($scope.pm.originType !== originType) $scope.pm.originType = originType}
   });
