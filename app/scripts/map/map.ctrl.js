@@ -7,7 +7,7 @@
  * # MapCtrl
  * Controller of the letsgoApp
  */
-angular.module('letsgo')
+angular.module('letsgo.map', [])
   .controller('MapCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

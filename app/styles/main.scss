@@ -51,6 +51,12 @@ header{
     margin: 0;
     font-size:$headerHeight - 20px;
   }
+
+  #searchPanel{
+    position:absolute;
+    right:10px;
+    top:10px;
+  }
 }
 
 #content{
@@ -71,29 +77,7 @@ header{
   width:100%;
   background:darken($lightBlue, 20%);
 }
-#map.nosidepanel{
-  right:0;
-}
-#panel{
-  position:absolute;
-  top:10px;
-  right:10px;
-  padding:10px;
 
-  color:$sidePanelColor;
-  background: $sidePanelBackground;
-  border:5px solid darken( $sidePanelBackground, 2% );
-
-  header{
-    position:inherit;
-    left: inherit;
-    right: inherit;
-    top: inherit;
-    margin:0;
-    height:30px;
-    font-size: 24px;
-  }
-}
 
 footer{
   position:absolute;
@@ -132,31 +116,10 @@ a{
 a:hover{
   color:#FFFFFF;
 }
-#directionInput{
-  margin:10px;
+
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: thin dotted;
+  outline: 0px auto #adadad;
+  outline-offset: -2px;
 }
-#directionSubPanel{
-  margin-top:40px;
-  background:lighten($sidePanelBackground, 10%);
-
-  header{
-    height:inherit;
-    position:inherit;
-    padding:5px;
-    text-align:center;
-    font-weight:bold;
-
-    -webkit-box-shadow:inherit;
-    -moz-box-shadow:inherit;
-    -box-shadow:inherit;
-  }
-}
-.directions{
-  margin:0 10px;
-
-
-  .direction{
-    padding: 10px 10px;
-  }
-}
-

@@ -15,12 +15,13 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'letsgo.main'
   ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.tpl.html',
+        templateUrl: 'scripts/main/main.tpl.html',
         controller: 'MainCtrl'
       })
       .otherwise({

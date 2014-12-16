@@ -2,10 +2,10 @@
 <header>
   <h1 ng-bind="pm.title"></h1>
   <div
-    id="directionCtrl"
+    id="searchPanel"
     class=".col-md-6"
     data-ng-controller="DirectionCtrl"
-    data-ng-include="'views/search.tpl.html'"
+    data-ng-include="'scripts/direction/search.tpl.html'"
     ></div>
 </header>
 <div id="content">
@@ -13,7 +13,7 @@
     id="mapCtrl"
     class=".col-md-6"
     data-ng-controller="MapCtrl"
-    data-ng-include="'views/map.tpl.html'"
+    data-ng-include="'scripts/map/map.tpl.html'"
     ></div>
 
 </div>

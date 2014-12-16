@@ -1,0 +1,27 @@
+<form class="form-inline" role="form">
+  <div class="input-group">
+    <span class="input-group-btn">
+
+      <button class="btn btn-default"
+              type="button"
+              ng-click="setOriginType('gps')"
+              ng-class="{active:pm.originType==='gps'}">
+        <span class="glyphicon glyphicon-search" aria-hidden="true" aria-labelledby="Current Location"></span>
+      </button>
+
+      <button class="btn btn-default"
+              type="button"
+              ng-click="setOriginType('search')"
+              ng-class="{active:pm.originType==='search'}">
+        <span class="glyphicon glyphicon-screenshot" aria-hidden="true" aria-labelledby="Search"></span>
+      </button>
+
+
+    </span>
+
+    <input type="text"
+           class="form-control"
+           ng-if="pm.originType==='search'"
+           ng-class="ng-hide">
+  </div>
+</form>

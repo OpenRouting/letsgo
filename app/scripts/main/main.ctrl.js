@@ -7,7 +7,10 @@
  * # MainCtrl
  * Controller of the letsgoApp
  */
-angular.module('letsgo')
+angular.module('letsgo.main', [
+  'letsgo.map',
+  'letsgo.direction'
+])
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
