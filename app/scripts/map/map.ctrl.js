@@ -9,9 +9,9 @@
  */
 angular.module('letsgo.map', [])
   .controller('MapCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.pm = {
+      center: [-77,10],
+      zoom:22,
+      layers: []
+    };
   });
