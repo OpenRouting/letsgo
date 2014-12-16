@@ -6,14 +6,22 @@
       <button class="btn btn-default btn-noround"
               type="button"
               ng-click="setOriginType('gps')"
-              ng-class="{active:pm.origin.type==='gps'}">
+              ng-class="{active:pm.origin.type==='gps'}"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Current Location">
+
         <span class="glyphicon glyphicon-screenshot" aria-hidden="true" aria-labelledby="Current Location"></span>
       </button>
 
       <button class="btn btn-default btn-noround"
               type="button"
               ng-click="setOriginType('search')"
-              ng-class="{active:pm.origin.type==='search'}">
+              ng-class="{active:pm.origin.type==='search'}"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Search Points of Interest">
+
         <span class="glyphicon glyphicon-search" aria-hidden="true" aria-labelledby="Search"></span>
       </button>
     </span>
