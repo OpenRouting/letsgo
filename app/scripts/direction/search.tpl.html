@@ -6,27 +6,28 @@
       <button class="btn btn-default btn-noround"
               type="button"
               ng-click="setOriginType('gps')"
-              ng-class="{active:pm.originType==='gps'}">
+              ng-class="{active:pm.origin.type==='gps'}">
         <span class="glyphicon glyphicon-screenshot" aria-hidden="true" aria-labelledby="Current Location"></span>
       </button>
 
       <button class="btn btn-default btn-noround"
               type="button"
               ng-click="setOriginType('search')"
-              ng-class="{active:pm.originType==='search'}">
+              ng-class="{active:pm.origin.type==='search'}">
         <span class="glyphicon glyphicon-search" aria-hidden="true" aria-labelledby="Search"></span>
       </button>
     </span>
 
-    <input type="text"
-           class="form-control"
-           ng-if="pm.originType==='search'"
-           ng-class="ng-hide">
+      <searchdropdown text="pm.origin.text"
+
+                      class="input-group-sm"
+                      ng-class="{'ng-hide':pm.origin.type!=='search'}">
+        ></searchdropdown>
   </div>
 
   <div class="input-group input-group-sm">
     <span class="input-group-addon">Destination</span>
-    <input type="text"
-           class="form-control">
+    <searchdropdown text="pm.destination.text" class="input-group-sm"></searchdropdown>
   </div>
+
 </form>

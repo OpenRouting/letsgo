@@ -5,17 +5,21 @@
  * # MapCtrl
  * Controller of the letsgoApp
  */
-angular.module('letsgo.direction', [])
+angular.module('letsgo.direction', [
+  'searchdropdown'
+])
   .controller('DirectionCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-
     $scope.pm = {
-      originType: 'search' // search, gps
+      origin: {
+        text: '',
+        type: 'search'
+      },
+      destination:{
+        text:''
+      }
     };
 
-    $scope.setOriginType = function(originType){if ($scope.pm.originType !== originType) $scope.pm.originType = originType}
+    $scope.setOriginType = function(originType){
+      if ($scope.pm.origin.type !== originType) $scope.pm.origin.type = originType
+    }
   });
