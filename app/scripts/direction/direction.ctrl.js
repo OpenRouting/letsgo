@@ -13,14 +13,14 @@ angular.module('letsgo.direction', [
       origin: {
         text: '',
         type: 'search',
-        showResults: true,
+        showResults: false,
         results: [
           '1','2','3'
         ]
       },
       destination:{
         text:'',
-        showResults: true,
+        showResults: false,
         results: [
           '1','2','3'
         ]
@@ -29,5 +29,20 @@ angular.module('letsgo.direction', [
 
     $scope.setOriginType = function(originType){
       if ($scope.pm.origin.type !== originType) $scope.pm.origin.type = originType
-    }
+    };
+
+    $scope.$watch('pm.destination.results', function(){
+      if ($scope.pm.destination.results.length > 0){
+        $scope.pm.destination.showResults = false;
+      } else {
+        $scope.pm.destination.showResults = true;
+      }
+    });
+    $scope.$watch('pm.origin.results', function(){
+      if ($scope.pm.origin.results.length > 0){
+        $scope.pm.origin.showResults = false;
+      } else {
+        $scope.pm.origin.showResults = true;
+      }
+    });
   });

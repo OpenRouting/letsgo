@@ -5,7 +5,7 @@ angular.module('searchdropdown', [])
 .directive('searchdropdown', [function() {
 
   function link(scope, element, attrs) {
-    console.log(scope);
+    scope.$watch('text', function(){console.log(scope.text)})
   }
 
   return {
