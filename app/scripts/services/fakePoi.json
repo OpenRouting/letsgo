@@ -1,0 +1,2225 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.063449,
+        38.9441841
+      ]
+    },
+    "properties": {
+      "osm_id": "738189407",
+      "name": "Van Ness-UDC",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0560884,
+        38.9298334
+      ]
+    },
+    "properties": {
+      "osm_id": "367144327",
+      "name": "Cathedral Mansions",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0558106,
+        38.9287223
+      ]
+    },
+    "properties": {
+      "osm_id": "158273399",
+      "name": "Woodley Park",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0555989,
+        38.9302817
+      ]
+    },
+    "properties": {
+      "osm_id": "2276095074",
+      "name": "3000 Connecticut Ave NW / National Zoo",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0555899,
+        38.92616
+      ]
+    },
+    "properties": {
+      "osm_id": "358960462",
+      "name": "Aidan Montessori School",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0555672,
+        38.9299244
+      ]
+    },
+    "properties": {
+      "osm_id": "750461247",
+      "name": "Cathedral Liquors",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0555411,
+        38.929875
+      ]
+    },
+    "properties": {
+      "osm_id": "750461225",
+      "name": "Zoo Bar Cafe",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0555168,
+        38.9298257
+      ]
+    },
+    "properties": {
+      "osm_id": "750461253",
+      "name": "Cathedral Pharmacy",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0553143,
+        38.9295977
+      ]
+    },
+    "properties": {
+      "osm_id": "488881227",
+      "name": "Starbucks",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.055255,
+        38.9317778
+      ]
+    },
+    "properties": {
+      "osm_id": "367143100",
+      "name": "Kennedy - Warren Apartment Building",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0551239,
+        38.930042
+      ]
+    },
+    "properties": {
+      "osm_id": "497415764",
+      "name": "030",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.055029,
+        38.9261142
+      ]
+    },
+    "properties": {
+      "osm_id": "2295825389",
+      "name": "St Thomas Apostle Church",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0550099,
+        38.929832
+      ]
+    },
+    "properties": {
+      "osm_id": "497415771",
+      "name": "031",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0547629,
+        38.929997
+      ]
+    },
+    "properties": {
+      "osm_id": "497415776",
+      "name": "033",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0547169,
+        38.930112
+      ]
+    },
+    "properties": {
+      "osm_id": "497415891",
+      "name": "032",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0545909,
+        38.930044
+      ]
+    },
+    "properties": {
+      "osm_id": "497415903",
+      "name": "034",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0545109,
+        38.930164
+      ]
+    },
+    "properties": {
+      "osm_id": "497415790",
+      "name": "035",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0544179,
+        38.930194
+      ]
+    },
+    "properties": {
+      "osm_id": "497415900",
+      "name": "036",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0542857,
+        38.9315666
+      ]
+    },
+    "properties": {
+      "osm_id": "495552481",
+      "name": "Speke's Gazelle",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0542719,
+        38.930247
+      ]
+    },
+    "properties": {
+      "osm_id": "497415781",
+      "name": "037",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0542399,
+        38.930159
+      ]
+    },
+    "properties": {
+      "osm_id": "497415921",
+      "name": "038",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0541589,
+        38.930321
+      ]
+    },
+    "properties": {
+      "osm_id": "497415938",
+      "name": "040",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0541299,
+        38.930466
+      ]
+    },
+    "properties": {
+      "osm_id": "497415804",
+      "name": "043",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0541176,
+        38.9310141
+      ]
+    },
+    "properties": {
+      "osm_id": "495552480",
+      "name": "Cheetah",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0541014,
+        38.9286638
+      ]
+    },
+    "properties": {
+      "osm_id": "750461251",
+      "name": "Pesto",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0540883,
+        38.931847
+      ]
+    },
+    "properties": {
+      "osm_id": "495552482",
+      "name": "Dama Gazelle",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0540679,
+        38.930248
+      ]
+    },
+    "properties": {
+      "osm_id": "497415816",
+      "name": "039",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0540519,
+        38.930122
+      ]
+    },
+    "properties": {
+      "osm_id": "497415872",
+      "name": "052",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0540129,
+        38.930415
+      ]
+    },
+    "properties": {
+      "osm_id": "497415818",
+      "name": "041",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0539799,
+        38.930106
+      ]
+    },
+    "properties": {
+      "osm_id": "497415754",
+      "name": "051",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0539342,
+        38.9298872
+      ]
+    },
+    "properties": {
+      "osm_id": "2930421748",
+      "name": "Sloth Bear",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0539329,
+        38.930338
+      ]
+    },
+    "properties": {
+      "osm_id": "497415920",
+      "name": "042",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0538909,
+        38.9319939
+      ]
+    },
+    "properties": {
+      "osm_id": "495552483",
+      "name": "Scimitar-Horned Oryx",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0538399,
+        38.930089
+      ]
+    },
+    "properties": {
+      "osm_id": "497415734",
+      "name": "065",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0538179,
+        38.930076
+      ]
+    },
+    "properties": {
+      "osm_id": "497415851",
+      "name": "066",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0537739,
+        38.930271
+      ]
+    },
+    "properties": {
+      "osm_id": "497415744",
+      "name": "073",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0537349,
+        38.9258685
+      ]
+    },
+    "properties": {
+      "osm_id": "757672458",
+      "name": "Woodley Park Guest House",
+      "tourism": "hotel"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0537039,
+        38.930359
+      ]
+    },
+    "properties": {
+      "osm_id": "497415788",
+      "name": "075",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0536999,
+        38.930369
+      ]
+    },
+    "properties": {
+      "osm_id": "497415865",
+      "name": "074",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0535799,
+        38.930274
+      ]
+    },
+    "properties": {
+      "osm_id": "497415874",
+      "name": "072",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0535139,
+        38.930105
+      ]
+    },
+    "properties": {
+      "osm_id": "497415838",
+      "name": "068",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0535119,
+        38.930322
+      ]
+    },
+    "properties": {
+      "osm_id": "497415855",
+      "name": "076",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0534929,
+        38.930551
+      ]
+    },
+    "properties": {
+      "osm_id": "497415800",
+      "name": "077",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0534799,
+        38.930055
+      ]
+    },
+    "properties": {
+      "osm_id": "497415762",
+      "name": "069",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0534197,
+        38.9318766
+      ]
+    },
+    "properties": {
+      "osm_id": "495552484",
+      "name": "Maned Wolf",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0533951,
+        38.9304443
+      ]
+    },
+    "properties": {
+      "osm_id": "2930421749",
+      "name": "Asia Small Clawed Otter",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0533689,
+        38.930572
+      ]
+    },
+    "properties": {
+      "osm_id": "497415910",
+      "name": "078",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0533049,
+        38.930066
+      ]
+    },
+    "properties": {
+      "osm_id": "497415869",
+      "name": "070",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0532919,
+        38.930132
+      ]
+    },
+    "properties": {
+      "osm_id": "497415747",
+      "name": "071",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0531871,
+        38.9316601
+      ]
+    },
+    "properties": {
+      "osm_id": "495552485",
+      "name": "Emu",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0531629,
+        38.93077
+      ]
+    },
+    "properties": {
+      "osm_id": "497415929",
+      "name": "120",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0531519,
+        38.930686
+      ]
+    },
+    "properties": {
+      "osm_id": "497415823",
+      "name": "119",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0530759,
+        38.930626
+      ]
+    },
+    "properties": {
+      "osm_id": "497415738",
+      "name": "118",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0530239,
+        38.930876
+      ]
+    },
+    "properties": {
+      "osm_id": "497415821",
+      "name": "121",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0530068,
+        38.9312862
+      ]
+    },
+    "properties": {
+      "osm_id": "495556224",
+      "name": "Grevy's Zebra",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0530068,
+        38.9316133
+      ]
+    },
+    "properties": {
+      "osm_id": "495552486",
+      "name": "Tammar Wallaby",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0527829,
+        38.930582
+      ]
+    },
+    "properties": {
+      "osm_id": "497415844",
+      "name": "117",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0526889,
+        38.930766
+      ]
+    },
+    "properties": {
+      "osm_id": "497415723",
+      "name": "116",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0526019,
+        38.930743
+      ]
+    },
+    "properties": {
+      "osm_id": "497415833",
+      "name": "115",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0525819,
+        38.93064
+      ]
+    },
+    "properties": {
+      "osm_id": "497415812",
+      "name": "079",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0525239,
+        38.930758
+      ]
+    },
+    "properties": {
+      "osm_id": "497415784",
+      "name": "085",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0525169,
+        38.930755
+      ]
+    },
+    "properties": {
+      "osm_id": "497415908",
+      "name": "086",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0524905,
+        38.9301815
+      ]
+    },
+    "properties": {
+      "osm_id": "494582038",
+      "name": "090",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0524869,
+        38.931392
+      ]
+    },
+    "properties": {
+      "osm_id": "497415935",
+      "name": "122",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0524469,
+        38.930184
+      ]
+    },
+    "properties": {
+      "osm_id": "497415881",
+      "name": "090",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0524259,
+        38.930664
+      ]
+    },
+    "properties": {
+      "osm_id": "497415932",
+      "name": "080",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0524239,
+        38.930781
+      ]
+    },
+    "properties": {
+      "osm_id": "497415894",
+      "name": "084",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0523989,
+        38.930789
+      ]
+    },
+    "properties": {
+      "osm_id": "497415750",
+      "name": "114",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0523879,
+        38.930658
+      ]
+    },
+    "properties": {
+      "osm_id": "497415779",
+      "name": "087",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0523599,
+        38.930068
+      ]
+    },
+    "properties": {
+      "osm_id": "497415882",
+      "name": "091",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0523599,
+        38.930793
+      ]
+    },
+    "properties": {
+      "osm_id": "497415783",
+      "name": "083",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0523529,
+        38.930444
+      ]
+    },
+    "properties": {
+      "osm_id": "497415885",
+      "name": "088",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0523278,
+        38.9293479
+      ]
+    },
+    "properties": {
+      "osm_id": "834420711",
+      "name": "Greater Flight Exhibit",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0523189,
+        38.930197
+      ]
+    },
+    "properties": {
+      "osm_id": "497415770",
+      "name": "089",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0523109,
+        38.930773
+      ]
+    },
+    "properties": {
+      "osm_id": "497415927",
+      "name": "082",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0523049,
+        38.930779
+      ]
+    },
+    "properties": {
+      "osm_id": "497415807",
+      "name": "081",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0522979,
+        38.929164
+      ]
+    },
+    "properties": {
+      "osm_id": "497415740",
+      "name": "104",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0522399,
+        38.929404
+      ]
+    },
+    "properties": {
+      "osm_id": "497415786",
+      "name": "106",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0522259,
+        38.930861
+      ]
+    },
+    "properties": {
+      "osm_id": "497415862",
+      "name": "113",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0521504,
+        38.9252499
+      ]
+    },
+    "properties": {
+      "osm_id": "358961926",
+      "name": "Stanford in Washington",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0521499,
+        38.92933
+      ]
+    },
+    "properties": {
+      "osm_id": "497415917",
+      "name": "105",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0521322,
+        38.9296897
+      ]
+    },
+    "properties": {
+      "osm_id": "497415868",
+      "name": "107",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0521159,
+        38.931178
+      ]
+    },
+    "properties": {
+      "osm_id": "497415726",
+      "name": "112",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0521075,
+        38.925133
+      ]
+    },
+    "properties": {
+      "osm_id": "701593544",
+      "name": "Pizze",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0520709,
+        38.931327
+      ]
+    },
+    "properties": {
+      "osm_id": "497415836",
+      "name": "111",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0520693,
+        38.9289257
+      ]
+    },
+    "properties": {
+      "osm_id": "494582152",
+      "name": "103",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0520389,
+        38.928926
+      ]
+    },
+    "properties": {
+      "osm_id": "497415912",
+      "name": "103",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0520056,
+        38.9251747
+      ]
+    },
+    "properties": {
+      "osm_id": "701593710",
+      "name": "Petits Plats",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0519579,
+        38.9298091
+      ]
+    },
+    "properties": {
+      "osm_id": "2926076230",
+      "name": "092",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0518839,
+        38.929826
+      ]
+    },
+    "properties": {
+      "osm_id": "497415888",
+      "name": "093",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0518559,
+        38.931508
+      ]
+    },
+    "properties": {
+      "osm_id": "497415745",
+      "name": "110",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0518439,
+        38.92899
+      ]
+    },
+    "properties": {
+      "osm_id": "497415809",
+      "name": "102",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0518392,
+        38.9289702
+      ]
+    },
+    "properties": {
+      "osm_id": "494582129",
+      "name": "102",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0517359,
+        38.929942
+      ]
+    },
+    "properties": {
+      "osm_id": "497415898",
+      "name": "095",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0517308,
+        38.9299348
+      ]
+    },
+    "properties": {
+      "osm_id": "494582075",
+      "name": "095",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0516939,
+        38.929755
+      ]
+    },
+    "properties": {
+      "osm_id": "497415778",
+      "name": "094",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0516856,
+        38.9317744
+      ]
+    },
+    "properties": {
+      "osm_id": "495983359",
+      "name": "Panda Plaza",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0516438,
+        38.9259445
+      ]
+    },
+    "properties": {
+      "osm_id": "367141729",
+      "name": "Twin Oaks",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0514969,
+        38.929995
+      ]
+    },
+    "properties": {
+      "osm_id": "497415905",
+      "name": "097",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0513959,
+        38.929929
+      ]
+    },
+    "properties": {
+      "osm_id": "497415802",
+      "name": "096",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0513339,
+        38.929057
+      ]
+    },
+    "properties": {
+      "osm_id": "497415924",
+      "name": "101",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0513049,
+        38.92905
+      ]
+    },
+    "properties": {
+      "osm_id": "497415797",
+      "name": "100",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0511186,
+        38.9312045
+      ]
+    },
+    "properties": {
+      "osm_id": "2926117835",
+      "name": "Elephant Community Center",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0510184,
+        38.9296143
+      ]
+    },
+    "properties": {
+      "osm_id": "494582093",
+      "name": "098",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0510099,
+        38.929612
+      ]
+    },
+    "properties": {
+      "osm_id": "497415774",
+      "name": "098",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0509326,
+        38.929187
+      ]
+    },
+    "properties": {
+      "osm_id": "494582118",
+      "name": "099",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0509259,
+        38.929182
+      ]
+    },
+    "properties": {
+      "osm_id": "497415940",
+      "name": "099",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0501745,
+        38.9306477
+      ]
+    },
+    "properties": {
+      "osm_id": "2451166924",
+      "name": "River Otters",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0491518,
+        38.9302166
+      ]
+    },
+    "properties": {
+      "osm_id": "495482459",
+      "name": "Popstop",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0490606,
+        38.9301565
+      ]
+    },
+    "properties": {
+      "osm_id": "495482445",
+      "name": "Smooth Fruit Ice",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0489445,
+        38.9303
+      ]
+    },
+    "properties": {
+      "osm_id": "358957429",
+      "name": "Giant Anteater Sculpture",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0488415,
+        38.9307406
+      ]
+    },
+    "properties": {
+      "osm_id": "495375309",
+      "name": "Collard Peccary",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.048627,
+        38.9306672
+      ]
+    },
+    "properties": {
+      "osm_id": "495375307",
+      "name": "Red Panda",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0481079,
+        38.9295021
+      ]
+    },
+    "properties": {
+      "osm_id": "495881934",
+      "name": null,
+      "tourism": "picnic_site"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0480474,
+        38.9291859
+      ]
+    },
+    "properties": {
+      "osm_id": "2451165713",
+      "name": "Great Meadow",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0477217,
+        38.929649
+      ]
+    },
+    "properties": {
+      "osm_id": "495881926",
+      "name": "Happy Frog",
+      "tourism": "artwork"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0475243,
+        38.9294888
+      ]
+    },
+    "properties": {
+      "osm_id": "495881927",
+      "name": "Frog Pond",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0475214,
+        38.9289291
+      ]
+    },
+    "properties": {
+      "osm_id": "2451165703",
+      "name": "Lemur Island",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0475157,
+        38.9302299
+      ]
+    },
+    "properties": {
+      "osm_id": "495881933",
+      "name": "Red-Bellied Turtle",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0474985,
+        38.9296624
+      ]
+    },
+    "properties": {
+      "osm_id": "495665950",
+      "name": "Reptile Discovery Center",
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0474753,
+        38.9284848
+      ]
+    },
+    "properties": {
+      "osm_id": "495425725",
+      "name": "Prairie dogs",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0474194,
+        38.9301096
+      ]
+    },
+    "properties": {
+      "osm_id": "495881924",
+      "name": "Johnson's Crocodile",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0471936,
+        38.9281901
+      ]
+    },
+    "properties": {
+      "osm_id": "495424487",
+      "name": null,
+      "tourism": "artwork"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0471809,
+        38.9293886
+      ]
+    },
+    "properties": {
+      "osm_id": "495881932",
+      "name": "Snack",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0471078,
+        38.9299728
+      ]
+    },
+    "properties": {
+      "osm_id": "495421217",
+      "name": "Butterfly Garden",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0470373,
+        38.9292058
+      ]
+    },
+    "properties": {
+      "osm_id": "358958398",
+      "name": "Chapin Bear Cub Sculpture",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0469876,
+        38.9291449
+      ]
+    },
+    "properties": {
+      "osm_id": "495371927",
+      "name": null,
+      "tourism": "artwork"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0466436,
+        38.9256669
+      ]
+    },
+    "properties": {
+      "osm_id": "367142756",
+      "name": "National Zoological Park Administration Building",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0463977,
+        38.9285911
+      ]
+    },
+    "properties": {
+      "osm_id": "2451165705",
+      "name": "Great Cats",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0463659,
+        38.9290001
+      ]
+    },
+    "properties": {
+      "osm_id": "358957449",
+      "name": "Kemeys Bear Cub Sculpture",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0461317,
+        38.9275821
+      ]
+    },
+    "properties": {
+      "osm_id": "495923499",
+      "name": null,
+      "tourism": "information"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0460881,
+        38.9320555
+      ]
+    },
+    "properties": {
+      "osm_id": "367144107",
+      "name": "Maxwell Woodhull House",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0460177,
+        38.929018
+      ]
+    },
+    "properties": {
+      "osm_id": "495380254",
+      "name": "Caracal",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0459606,
+        38.927984
+      ]
+    },
+    "properties": {
+      "osm_id": "2451165719",
+      "name": "Lion/Tiger Hill",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0458103,
+        38.9292779
+      ]
+    },
+    "properties": {
+      "osm_id": "358957445",
+      "name": "Wrestling Bears Sculpture",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0457203,
+        38.9291995
+      ]
+    },
+    "properties": {
+      "osm_id": "2451165723",
+      "name": "Tiger Tracks",
+      "tourism": "attraction"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0451288,
+        38.928814
+      ]
+    },
+    "properties": {
+      "osm_id": "495360942",
+      "name": null,
+      "tourism": "picnic_site"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0449534,
+        38.9277961
+      ]
+    },
+    "properties": {
+      "osm_id": "495325772",
+      "name": null,
+      "tourism": "picnic_site"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0444962,
+        38.9252387
+      ]
+    },
+    "properties": {
+      "osm_id": "3023638635",
+      "name": "Mailbox",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0435237,
+        38.9097773
+      ]
+    },
+    "properties": {
+      "osm_id": "738182031",
+      "name": "Dupont Circle",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0433579,
+        38.9278717
+      ]
+    },
+    "properties": {
+      "osm_id": "2276095818",
+      "name": "Harvard St and Adams Mill Rd NW",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0426999,
+        38.9326
+      ]
+    },
+    "properties": {
+      "osm_id": "367143373",
+      "name": "Charles Kraemer House",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0422161,
+        38.9258865
+      ]
+    },
+    "properties": {
+      "osm_id": "1958734725",
+      "name": "The Ontario",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0408102,
+        38.9306668
+      ]
+    },
+    "properties": {
+      "osm_id": "158476340",
+      "name": "Mount Pleasant",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0399769,
+        38.9265002
+      ]
+    },
+    "properties": {
+      "osm_id": "157596835",
+      "name": "Lanier Heights",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0391061,
+        38.9321527
+      ]
+    },
+    "properties": {
+      "osm_id": "741027379",
+      "name": "Argyle Convenient Store",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0390999,
+        38.9322
+      ]
+    },
+    "properties": {
+      "osm_id": "358961850",
+      "name": "Preparatory School For Early Learning",
+      "tourism": null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -77.0166389,
+        38.8960903
+      ]
+    },
+    "properties": {
+      "osm_id": "738189406",
+      "name": "Judiciary Sq",
+      "tourism": null
+    }
+  }
+]
+}

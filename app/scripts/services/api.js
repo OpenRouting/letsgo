@@ -31,7 +31,8 @@ angular.module('letsgo.api', ['letsgo.configuration'])
        * @returns {HttpPromise}
        */
       table: function (table) {
-        var url = config.apiRoot + '/geo/' + table;
+        //var url = config.apiRoot + '/geo/' + table;
+        var url = 'scripts/services/fakePoi.json';
         return $http.get(url);
       },
       /**

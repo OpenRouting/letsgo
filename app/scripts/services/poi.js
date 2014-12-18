@@ -23,6 +23,9 @@ angular.module('letsgo.pointofinterest', [
       for (var a in poi){
         if (this.hasOwnProperty(a)) this[a] = poi[a]
       }
+      for (var a in poi.properties){
+        if (this.hasOwnProperty(a)) this[a] = poi.properties[a]
+      }
     };
 
     return POI;
@@ -33,36 +36,32 @@ angular.module('letsgo.pointofinterest', [
 
     var self = this;
     var poiTableName = 'planet_osm_point';
-    self.loaded = false;
-    self.poi = [];
-    self.selectedPOI = {};
+    self.pm = {
+      loaded: false,
+      poi: [],
+      selectedPOI: {}
+    };
 
-    self.loadPOI = function(){
-      self.poi = [];
+    self.load = function(){
+      self.pm.poi = [];
 
       var d = $q.defer();
-      console.log(api);
       api.table(poiTableName).then(
         function(response) {
           // Good Response
-          console.log(response);
-
-          for (var item in response.data){
-            var p = new POI(response.data[item]);
-            self.poi.push(p);
+          for (var item in response.data.features){
+            var p = new POI(response.data.features[item]);
+            self.pm.poi.push(p);
           }
-          self.loaded = true;
+          self.pm.loaded = true;
           d.resolve();
         },
         function(err) {
           // Bad Response
-          console.log(err);
           d.reject(err.data);
         });
 
       return d.promise;
     };
-
-    self.loadPOI();
 
   }]);
