@@ -14,7 +14,7 @@ angular.module('letsgo.configuration', [])
     // ...
     var config = {};
 
-    config.apiRoot = 'http://routingservice-bmoregeoweb.rhcloud.com/api/v1/';
+    config.apiRoot = 'http://routingservice-bmoregeoweb.rhcloud.com/api/v1';
     config.map = {
       center: [],
       zoom: 20,
