@@ -19,7 +19,8 @@ angular.module('letsgo.direction', [
       destination:{
         text:'',
         showResults: false
-      }
+      },
+      poiService: poiService
     };
 
     function _init(){
@@ -29,28 +30,6 @@ angular.module('letsgo.direction', [
     $scope.setOriginType = function(originType){
       if ($scope.pm.origin.type !== originType) $scope.pm.origin.type = originType
     };
-
-    $scope.$watch('pm.destination.results', function(){
-      if ($scope.pm.destination.results.length > 0){
-        $scope.pm.destination.showResults = false;
-      } else {
-        $scope.pm.destination.showResults = true;
-      }
-    });
-    $scope.$watch('pm.origin.results', function(){
-      if ($scope.pm.origin.results.length > 0){
-        $scope.pm.origin.showResults = false;
-      } else {
-        $scope.pm.origin.showResults = true;
-      }
-    });
-
-    $scope.$watch(function(){return poiService.pm.loaded}, function(){
-      console.log(poiService.pm.loaded);
-      if (poiService.pm.loaded){
-        console.log(poiService.pm.poi);
-      }
-    });
 
     _init();
 
