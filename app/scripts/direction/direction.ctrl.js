@@ -6,26 +6,25 @@
  * Controller of the letsgoApp
  */
 angular.module('letsgo.direction', [
-  'searchdropdown'
+  'searchdropdown',
+  'letsgo.pointofinterest'
 ])
-  .controller('DirectionCtrl', function ($scope) {
+  .controller('DirectionCtrl', ['$scope', 'poiService', function ($scope, poiService) {
     $scope.pm = {
       origin: {
         text: '',
         type: 'search',
-        showResults: false,
-        results: [
-          '1','2','3'
-        ]
+        showResults: false
       },
       destination:{
         text:'',
-        showResults: false,
-        results: [
-          '1','2','3'
-        ]
+        showResults: false
       }
     };
+
+    function _init(){
+      poiService.load();
+    }
 
     $scope.setOriginType = function(originType){
       if ($scope.pm.origin.type !== originType) $scope.pm.origin.type = originType
@@ -45,4 +44,14 @@ angular.module('letsgo.direction', [
         $scope.pm.origin.showResults = true;
       }
     });
-  });
+
+    $scope.$watch(function(){return poiService.pm.loaded}, function(){
+      console.log(poiService.pm.loaded);
+      if (poiService.pm.loaded){
+        console.log(poiService.pm.poi);
+      }
+    });
+
+    _init();
+
+  }]);
