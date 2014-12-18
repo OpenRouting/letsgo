@@ -132,7 +132,9 @@ a:hover{
   position:absolute;
   top:30px;
   width:146px;
+  max-height:200px;
   padding:5px 10px;
+  overflow: auto;
 
   background:lighten($headerBackground, 20%);
   border:2px solid $headerBackground;

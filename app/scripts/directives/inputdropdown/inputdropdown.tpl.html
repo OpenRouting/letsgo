@@ -6,8 +6,8 @@
          >
     <div class="droparea ng-hide" ng-show="show">
       <ul>
-        <li ng-repeat="item in items">
-          {{item}}
+        <li ng-repeat="item in items | filter:text | limitTo:20">
+          {{item.name}}
         </li>
       </ul>
     </div>

@@ -14,11 +14,11 @@ angular.module('letsgo.direction', [
       origin: {
         text: '',
         type: 'search',
-        showResults: false
+        showResults: true
       },
       destination:{
         text:'',
-        showResults: false
+        showResults: true
       },
       poiService: poiService
     };
@@ -30,6 +30,10 @@ angular.module('letsgo.direction', [
     $scope.setOriginType = function(originType){
       if ($scope.pm.origin.type !== originType) $scope.pm.origin.type = originType
     };
+
+    $scope.$watch(function(){return $scope.pm.poiService.pm.loaded}, function(loaded){
+
+    });
 
     _init();
 
