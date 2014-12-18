@@ -60,7 +60,6 @@ angular.module('letsgo.pointofinterest', [
           // Bad Response
           d.reject(err.data);
         });
-
       return d.promise;
     };
 
