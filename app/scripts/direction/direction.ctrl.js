@@ -25,6 +25,8 @@ angular.module('letsgo.direction', [
       poiService: poiService
     };
 
+    $scope.poiService = poiService;
+
     function _init(){
       poiService.load();
     }
@@ -39,10 +41,6 @@ angular.module('letsgo.direction', [
       if ($scope.pm.origin.type !== originType) $scope.pm.origin.type = originType;
 
     };
-
-    $scope.$watch(function(){return $scope.pm.poiService.pm.loaded}, function(loaded){
-
-    });
 
     _init();
 
