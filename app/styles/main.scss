@@ -155,6 +155,9 @@ a:hover{
   li:first-of-type{
     border-top-width:0px;
   }
+  li.selectedListItem{
+    background:red;
+  }
 }
 
 #mapCtrl{

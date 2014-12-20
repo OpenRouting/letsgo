@@ -5,6 +5,16 @@ angular.module('searchdropdown', [])
 .directive('searchdropdown', ['$filter', function($filter) {
 
   function link(scope, element, attrs) {
+    scope.pm = {
+      selectedItem: {}
+    };
+
+    scope.selectItem = function(item){
+      scope.pm.selectedItem = item;
+      console.log(item.id, scope.pm.selectedItem.id);
+
+    };
+
     scope.$watch('text', function(){
 
       scope.show = (scope.text != '' &&
