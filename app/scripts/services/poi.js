@@ -13,19 +13,36 @@ angular.module('letsgo.pointofinterest', [
   .factory('poiFactory', function(){
     // Creates a point of interest object
 
+    var attributeCrosswalk = {
+      osm_id: 'id'
+    };
+
     var POI = function(poi){
+      this.id = undefined;
       this.name = undefined;
       this.category = undefined;
       this.osm_id = undefined;
       this.wikipedia_id = undefined;
       this.geometry = {};
 
+      // Non geo-json stuff
       for (var a in poi){
         if (this.hasOwnProperty(a)) this[a] = poi[a]
       }
-      for (var a in poi.properties){
-        if (this.hasOwnProperty(a)) this[a] = poi.properties[a]
+      // Geo-Json attributes
+      if (poi.hasOwnProperty('properties')) {
+
+        for (var a in poi.properties) {
+          if (this.hasOwnProperty(a)) this[a] = poi.properties[a]
+        }
+
+        for (var a in attributeCrosswalk) {
+          if (this.hasOwnProperty(attributeCrosswalk[a]) && poi.properties.hasOwnProperty(a)) {
+            this[attributeCrosswalk[a]] = poi.properties[a]
+          }
+        }
       }
+
     };
 
     return POI;
