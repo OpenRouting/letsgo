@@ -5,8 +5,17 @@ angular.module('searchdropdown', [])
 .directive('searchdropdown', ['$filter', function($filter) {
 
   function link(scope, element, attrs) {
+    scope.show=false;
     scope.pm = {
-      selectedItem: {}
+      selectedItem: undefined
+    };
+
+    scope.setShow = function(show){
+      if (show && scope.pm.selectedItem != null) {
+        scope.show = true
+      } else {
+        scope.show = false;
+      }
     };
 
     scope.selectItem = function(item){
@@ -28,8 +37,7 @@ angular.module('searchdropdown', [])
     transclude: true,
     scope: {
       text: '=',
-      items: '=',
-      show: '='
+      items: '='
     },
     templateUrl: 'scripts/directives/inputdropdown/inputdropdown.tpl.html',
     link: link

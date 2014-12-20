@@ -133,7 +133,7 @@ a:hover{
   top:30px;
   width:146px;
   max-height:200px;
-  padding:5px 10px;
+  padding:5px 0px;
   overflow: auto;
 
   background:lighten($headerBackground, 20%);
@@ -148,15 +148,21 @@ a:hover{
   }
   li{
     margin:0;
-    padding:2px 0;
+    padding:2px 10px;
     width:100%;
     border-top:1px solid lighten($headerBackground, 50%);
   }
   li:first-of-type{
     border-top-width:0px;
   }
-  li.selectedListItem{
-    background:red;
+  li:hover{
+    background:lighten($headerBackground, 45%);
+  }
+  li.selected{
+    background:lighten($headerBackground, 30%);
+  }
+  li.selected:hover{
+    background:lighten($headerBackground, 50%);
   }
 }
 

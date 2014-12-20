@@ -3,12 +3,16 @@
   <input type="text"
          class="form-control"
          ng-model="text"
+         ng-click="setShow(true)"
          >
-    <div class="droparea ng-hide" ng-show="show">
-      <ul>
+    <div
+      class="droparea ng-hide"
+      ng-show="show"
+      ng-mouseleave="setShow(false)">
+      <ul >
         <li
-          ng-repeat="item in items | filter:text | limitTo:20"
-          ng-class="{selectedListItem:pm.selectedItem.id===item.id}"
+          ng-repeat="item in items | filter:text | orderBy:'name' | limitTo:20"
+          ng-class="{selected:pm.selectedItem.id===item.id}"
           ng-click="selectItem(item)"
           >
           {{item.name}}
