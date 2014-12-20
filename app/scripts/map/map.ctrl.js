@@ -12,8 +12,8 @@ angular.module('letsgo.map', [
 ])
   .controller('MapCtrl', function ($scope) {
     $scope.pm = {
-      center: [39.283333,-76.616667],
-      zoom:12,
+      center: [38.929,-77.051],
+      zoom:16,
       layers: [],
       basemaps:[
         {
