@@ -30,6 +30,8 @@
                       items="pm.poiService.pm.poi"
                       show="pm.origin.showResults"
                       class="input-group-sm"
+                      remove="pm.destination.selected"
+                      selected="pm.origin.selected"
                       ng-class="{'ng-hide':pm.origin.type!=='search'}"
         >
         ></searchdropdown>
@@ -39,6 +41,8 @@
     <span class="input-group-addon">Destination</span>
     <searchdropdown text="pm.destination.text"
                     items="pm.poiService.pm.poi"
+                    remove="pm.origin.selected"
+                    selected="pm.destination.selected"
                     class="input-group-sm"></searchdropdown>
   </div>
 

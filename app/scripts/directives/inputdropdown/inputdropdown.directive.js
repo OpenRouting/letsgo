@@ -2,16 +2,23 @@
  * Created by christopherfricke on 12/15/14.
  */
 angular.module('searchdropdown', [])
+
+.filter('filterout', function() {
+  return function(array, test) {
+    var list = [];
+    for (var i in array){
+      if (!(array[i] === test)) list.push(array[i])
+    }
+    return list;
+  };
+})
 .directive('searchdropdown', ['$filter', function($filter) {
 
   function link(scope, element, attrs) {
     scope.show=false;
-    scope.pm = {
-      selectedItem: undefined
-    };
 
     scope.setShow = function(show){
-      if (show && scope.pm.selectedItem != null) {
+      if (show && scope.selected != null) {
         scope.show = true
       } else {
         scope.show = false;
@@ -19,9 +26,8 @@ angular.module('searchdropdown', [])
     };
 
     scope.selectItem = function(item){
-      scope.pm.selectedItem = item;
-      console.log(item.id, scope.pm.selectedItem.id);
-
+      scope.selected = item;
+      scope.text = item.name;
     };
 
     scope.$watch('text', function(){
@@ -37,7 +43,9 @@ angular.module('searchdropdown', [])
     transclude: true,
     scope: {
       text: '=',
-      items: '='
+      items: '=',
+      remove: '=',
+      selected: '='
     },
     templateUrl: 'scripts/directives/inputdropdown/inputdropdown.tpl.html',
     link: link

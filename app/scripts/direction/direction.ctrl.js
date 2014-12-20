@@ -14,11 +14,13 @@ angular.module('letsgo.direction', [
       origin: {
         text: '',
         type: 'search',
-        showResults: true
+        showResults: true,
+        selected:undefined
       },
       destination:{
         text:'',
-        showResults: true
+        showResults: true,
+        selected:undefined
       },
       poiService: poiService
     };
@@ -28,7 +30,14 @@ angular.module('letsgo.direction', [
     }
 
     $scope.setOriginType = function(originType){
-      if ($scope.pm.origin.type !== originType) $scope.pm.origin.type = originType
+
+      if (($scope.pm.origin.type !== originType) && ($scope.pm.origin.type === 'gps')) {
+        $scope.pm.origin.text = '';
+        $scope.pm.origin.selected = undefined;
+      }
+
+      if ($scope.pm.origin.type !== originType) $scope.pm.origin.type = originType;
+
     };
 
     $scope.$watch(function(){return $scope.pm.poiService.pm.loaded}, function(loaded){
