@@ -11,11 +11,11 @@
       ng-mouseleave="setShow(false)">
       <ul >
         <li
-          ng-repeat="item in items | filter:text | filterout:remove |orderBy:'name' | limitTo:20"
-          ng-class="{selected:selected.id===item.id}"
+          ng-repeat="item in items | filter:text | filterout:remove |orderBy:'properties.name' | limitTo:20"
+          ng-class="{selected:selected.properties.id===item.id}"
           ng-click="selectItem(item)"
           >
-          {{item.name}}
+          {{item.properties.name}}
         </li>
       </ul>
     </div>

@@ -27,7 +27,7 @@ angular.module('searchdropdown', [])
 
     scope.selectItem = function(item){
       scope.selected = item;
-      scope.text = item.name;
+      scope.text = item.properties.name;
     };
 
     scope.$watch('text', function(){
