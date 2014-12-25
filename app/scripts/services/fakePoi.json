@@ -103,7 +103,8 @@
     "properties": {
       "osm_id": "750461225",
       "name": "Zoo Bar Cafe",
-      "tourism": null
+      "tourism": null,
+      "category": "bathroom"
     }
   },
   {

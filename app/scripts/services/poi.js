@@ -18,7 +18,7 @@ angular.module('letsgo.pointofinterest', [
     };
 
     var POI = function(poi){
-      this.type = 'Feature',
+      this.type = undefined;
       this.geometry = undefined;
       this.properties = {
         id: undefined,

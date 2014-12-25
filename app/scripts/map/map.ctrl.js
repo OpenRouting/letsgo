@@ -31,11 +31,47 @@ angular.module('letsgo.map', [
       layers: [],
 
       geojson: {
-        data: undefined,
-        style: {
-          "color": "#ff7800",
-          "weight": 5,
-          "opacity": 0.65
+        style: function (feature) {
+          return feature.properties && feature.properties.style;
+        },
+        resetStyleOnMouseout: true,
+
+        // This is where we define symbology for the points
+        pointToLayer: function(feature, latlng){
+          var icon;
+
+          if (feature.properties.category === 'bathroom'){
+            icon = L.circleMarker(latlng, {
+              radius: 8,
+              fillColor: "#0000FF",
+              color: "#000",
+              weight: 1,
+              opacity: 1,
+              fillOpacity: 0.8
+            });
+          }
+          else {
+            icon = L.circleMarker(latlng, {
+              radius: 8,
+              fillColor: "#ff7800",
+              color: "#000",
+              weight: 1,
+              opacity: 1,
+              fillOpacity: 0.8
+            });
+          }
+
+          return icon;
+        },
+        // This is where we define popups
+        onEachFeature: function(feature, layer){
+          var popupContent = "<p>I started out as a GeoJSON " +
+            feature.geometry.type + ", but now I'm a Leaflet vector!</p>";
+
+          if (feature.properties && feature.properties.popupContent) {
+            popupContent += feature.properties.popupContent;
+          }
+          layer.bindPopup(popupContent);
         }
       },
 
@@ -64,25 +100,16 @@ angular.module('letsgo.map', [
 
     $scope.poiService = poiService;
 
+
+
     $scope.$watch(
       function(){return $scope.poiService.pm.poi},
       function(){
-        angular.extend($scope, {
-          geojson: {
-            data: {
-              "type": "FeatureCollection",
-              "features": $scope.poiService.pm.poi
-            },
-            style: {
-              "color": "#ff7800",
-              "weight": 5,
-              "opacity": 0.65
-            },
-            resetStyleOnMouseout: true
-          }
-          }
-        );
 
+        $scope.pm.geojson.data = {
+            "type": "FeatureCollection",
+            "features": $scope.poiService.pm.poi
+          }
 
       },
       true
