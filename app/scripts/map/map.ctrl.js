@@ -13,6 +13,21 @@ angular.module('letsgo.map', [
 
 ])
   .controller('MapCtrl', ['$scope', 'poiService', function ($scope, poiService) {
+    var icons = {
+      direction: {
+        type: 'div',
+        iconSize: [20, 20],
+        className: 'direction',
+        iconAnchor:  [5, 5]
+      },
+      poi: {
+        type: 'div',
+        iconSize: [20, 20],
+        className: 'poi',
+        iconAnchor:  [5, 5]
+      }
+    };
+
     $scope.pm = {
       center: {
         lat: 38.929,
@@ -28,89 +43,79 @@ angular.module('letsgo.map', [
           opacity: 1
         }
       },
-      layers: [],
 
-      geojson: {
-        style: function (feature) {
-          return feature.properties && feature.properties.style;
+      layers: {
+        baselayers: {
+          osm: {
+            name: "OpenStreetMap",
+            url: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            type: "xyz",
+            layerParams: {},
+            layerOptions: {}
+          },
+          mapbox_terrain: {
+            name: "Mapbox Terrain",
+            url: "http://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.png?access_token={apikey}",
+            type: "xyz",
+            layerOptions: {
+              apikey: "pk.eyJ1IjoidG9tYmF0b3NzYWxzIiwiYSI6Imo3MWxyTHMifQ.TjXg_IV7ZYMHX6tqjMikPg",
+              mapid: "tombatossals.jbn2nnon"
+            },
+            layerParams: {}
+          }
         },
-        resetStyleOnMouseout: true,
-
-        // This is where we define symbology for the points
-        pointToLayer: function(feature, latlng){
-          var icon;
-
-          if (feature.properties.category === 'bathroom'){
-            icon = L.circleMarker(latlng, {
-              radius: 8,
-              fillColor: "#0000FF",
-              color: "#000",
-              weight: 1,
-              opacity: 1,
-              fillOpacity: 0.8
-            });
+        overlays: {
+          directions: {
+            name: "Directions",
+            type: "group",
+            visible: true,
+            layerParams: {},
+            layerOptions: {}
+          },
+          poi: {
+            name: "Points of Interest",
+            type: "group",
+            visible: true,
+            layerParams: {},
+            layerOptions: {}
           }
-          else {
-            icon = L.circleMarker(latlng, {
-              radius: 8,
-              fillColor: "#ff7800",
-              color: "#000",
-              weight: 1,
-              opacity: 1,
-              fillOpacity: 0.8
-            });
-          }
-
-          return icon;
-        },
-        // This is where we define popups
-        onEachFeature: function(feature, layer){
-          var popupContent = "<p>I started out as a GeoJSON " +
-            feature.geometry.type + ", but now I'm a Leaflet vector!</p>";
-
-          if (feature.properties && feature.properties.popupContent) {
-            popupContent += feature.properties.popupContent;
-          }
-          layer.bindPopup(popupContent);
         }
       },
-
-      basemaps: {
-        "baselayers": {
-          "osm": {
-            "name": "OpenStreetMap",
-            "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-            "type": "xyz",
-            "layerParams": {},
-            "layerOptions": {}
-          },
-          "mapbox_terrain": {
-            "name": "Mapbox Terrain",
-            "url": "http://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.png?access_token={apikey}",
-            "type": "xyz",
-            "layerOptions": {
-              "apikey": "pk.eyJ1IjoidG9tYmF0b3NzYWxzIiwiYSI6Imo3MWxyTHMifQ.TjXg_IV7ZYMHX6tqjMikPg",
-              "mapid": "tombatossals.jbn2nnon"
-            },
-            "layerParams": {}
-          }
-        }
-      }
+      markers: {}
     };
 
     $scope.poiService = poiService;
 
+    // Pull this from directions service
+    $scope.pm.markers = {
+      n0: {
+        lng: -77.0555411,
+        lat: 38.930106,
+        message: 'asdf',
+        layer: 'directions',
+        icon: icons.direction
+      },
+      n1: {
+        lng: -77.0555168,
+        lat: 38.929875,
+        message: '2',
+        layer: 'directions',
+        icon: icons.direction
+      }
+    };
+
+
 
 
     $scope.$watch(
-      function(){return $scope.poiService.pm.poi},
       function(){
-
+        return $scope.poiService.pm.poi
+      },
+      function(){
         $scope.pm.geojson.data = {
             "type": "FeatureCollection",
             "features": $scope.poiService.pm.poi
           }
-
       },
       true
 
