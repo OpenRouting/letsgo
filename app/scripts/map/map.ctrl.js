@@ -8,26 +8,12 @@
  * Controller of the letsgoApp
  */
 angular.module('letsgo.map', [
+  'letsgo.map.styles',
   'leaflet-directive',
   'letsgo.pointofinterest'
 
 ])
-  .controller('MapCtrl', ['$scope', 'poiService', function ($scope, poiService) {
-    var icons = {
-      direction: {
-        type: 'div',
-        iconSize: [20, 20],
-        className: 'direction',
-        iconAnchor:  [5, 5]
-      },
-      poi: {
-        type: 'div',
-        iconSize: [20, 20],
-        className: 'poi',
-        iconAnchor:  [5, 5]
-      }
-    };
-
+  .controller('MapCtrl', ['$scope', 'poiService', 'mapStyles', function ($scope, poiService, mapStyles) {
     $scope.pm = {
       center: {
         lat: 38.929,
@@ -93,14 +79,14 @@ angular.module('letsgo.map', [
         lat: 38.930106,
         message: 'asdf',
         layer: 'directions',
-        icon: icons.direction
+        icon: mapStyles.direction
       },
       n1: {
         lng: -77.0555168,
         lat: 38.929875,
         message: '2',
         layer: 'directions',
-        icon: icons.direction
+        icon: mapStyles.direction
       }
     };
 
@@ -112,10 +98,9 @@ angular.module('letsgo.map', [
         return $scope.poiService.pm.poi
       },
       function(){
-        $scope.pm.geojson.data = {
-            "type": "FeatureCollection",
-            "features": $scope.poiService.pm.poi
-          }
+        angular.forEach($scope.poiService.pm.poi, function(value, key){
+          $scope.pm.markers[key] = value;
+        });
       },
       true
 

@@ -8,49 +8,42 @@
  * Service in the letsgoApp.
  */
 angular.module('letsgo.pointofinterest', [
-  'letsgo.api'
+  'letsgo.api',
+  'letsgo.map.styles'
 ])
-  .factory('poiFactory', function(){
+  .factory('poiFactory', ['mapStyles', function(mapStyles){
     // Creates a point of interest object
-
-    var attributeCrosswalk = {
-      osm_id: 'id'
-    };
-
     var POI = function(poi){
-      this.type = undefined;
-      this.geometry = undefined;
-      this.properties = {
-        id: undefined,
-        name: undefined,
-        category: undefined,
-        osm_id: undefined,
-        wikipedia_id: undefined
+      var self = this;
+      self.id = undefined;
+      self.lng = undefined;
+      self.lat = undefined;
+      self.message = undefined;
+      self.layer = "poi";
+      self.icon = undefined;
+
+      var attributeCrosswalk = {
+        osm_id: 'id'
       };
 
-      // Non geo-json stuff
-      for (var a in poi){
-        if (a !== 'properties' && this.hasOwnProperty(a)) this[a] = poi[a]
+      if (poi.hasOwnProperty('geometry')){
+        self.lat = poi.geometry.coordinates[1];
+        self.lng = poi.geometry.coordinates[0];
       }
 
-      // Geo-Json attributes
-      if (poi.hasOwnProperty('properties')) {
+      angular.forEach(poi.properties, function(value, key){
+        if (poi.properties.hasOwnProperty(key) && self.hasOwnProperty(attributeCrosswalk[key])){
+          self[attributeCrosswalk[key]] = value;
+        };
+      });
 
-        for (var a in poi.properties) {
-          if (this.properties.hasOwnProperty(a)) this.properties[a] = poi.properties[a]
-        }
+      this.icon = mapStyles.markers.direction;
 
-        for (var a in attributeCrosswalk) {
-          if (this.properties.hasOwnProperty(attributeCrosswalk[a]) && poi.properties.hasOwnProperty(a)) {
-            this.properties[attributeCrosswalk[a]] = poi.properties[a]
-          }
-        }
-      }
-
+      console.log(this);
     };
 
     return POI;
-  })
+  }])
 
   .service('poiService', ['$q', 'poiFactory', 'api', function ($q, POI, api) {
     // Calls api service and returns a point of interest objects
@@ -64,7 +57,7 @@ angular.module('letsgo.pointofinterest', [
     };
 
     self.load = function(){
-      self.pm.poi = [];
+      self.pm.poi = {};
 
       var d = $q.defer();
       api.table(poiTableName).then(
@@ -72,7 +65,7 @@ angular.module('letsgo.pointofinterest', [
           // Good Response
           for (var item in response.data.features){
             var p = new POI(response.data.features[item]);
-            self.pm.poi.push(p);
+            self.pm.poi[p.id] = p
           }
           self.pm.loaded = true;
           d.resolve();
