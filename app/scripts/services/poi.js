@@ -38,8 +38,6 @@ angular.module('letsgo.pointofinterest', [
       });
 
       this.icon = mapStyles.markers.direction;
-
-      console.log(this);
     };
 
     return POI;
